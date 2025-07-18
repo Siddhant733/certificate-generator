@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.certificate {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.cert-box {
+  background-color: #e6ccff;
+  border: 2px dashed #800080;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.cert-box h2 {
+  margin-top: 10px;
+}
+
+.code-box {
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: left;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
